@@ -1,5 +1,5 @@
 body{
-    background-image: url(./img/pexels-pixabay-159711.jpg);
+    background-image: url(./img/cc.jpg);
     background-size: cover;
 }
 
@@ -179,7 +179,7 @@ th{
 }
 
 td{
-    background-color: rgb(210, 238, 247);
+    background-color: rgb(255, 0, 0);
     width: 350px;
 }
 
