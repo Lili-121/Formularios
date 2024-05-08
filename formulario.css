@@ -1,0 +1,198 @@
+body{
+    background-image: url(./img/pexels-pixabay-159711.jpg);
+    background-size: cover;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    background-color: rgba(235, 238, 237, 0.932);
+    margin-left: 10%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 2%;
+    border-radius: 15px;
+    height: 480px;
+    width: 360px;
+}
+
+h2{
+    font-size: 44px;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+#fecha{
+    font-size: 12px;
+    text-align: left;
+    padding-left: 57px;
+}
+
+#fecha1{
+    font-size: 12px;
+    text-align: left;
+    justify-content: left;
+    margin-left: -208px;
+    margin-top: 10px;
+}
+
+input{
+    height: 25px;
+    width: 260px;
+    border-radius: 8px;
+    border: 2px;
+    padding-left: 3%;
+    color: rgb(131, 131, 131);
+}
+
+#nombre{
+    margin: 10px;
+}
+#apellidos{
+    margin-bottom: 10px;
+}
+#telefono{
+    margin-bottom: 10px;
+}
+
+#tipoDocumento{
+    margin-bottom: 10px;
+    width: 259px;
+}
+
+#documento{
+    margin-bottom: 10px;
+}
+
+#correo{
+    margin-bottom: 10px;
+}
+select{
+    margin-bottom: 3%;
+    height: 25px;
+    width: 270px;
+    border-radius: 8px;
+    border: 2px;
+    padding-left: 1%;
+    color: rgb(104, 103, 103);
+    background-color:  rgb(204, 200, 200);
+}
+
+#boton1{
+    background-color: rgb(181, 213, 243);
+    width: 110px;
+    border-radius: 8px;
+    border: 2px;
+    padding: 1%;
+    margin-bottom: 3%;
+}
+
+#boton1:hover{
+    background-color: rgb(146, 185, 221); 
+}
+
+#boton2{
+    background-color: rgb(247, 179, 179);
+    width: 110px;
+    border-radius: 8px;
+    border: 2px;
+    padding: 1%;
+    margin-bottom: 3%;
+}
+
+#boton2:hover{
+    background-color: rgb(192, 137, 137); 
+}
+
+#g1{
+    width: 10px;
+}
+
+#g2{
+    width: 10px;
+}
+
+#enviar{
+    background-color: rgb(225, 252, 201);
+    width: 268px;
+    border-radius: 8px;
+    border: 2px;
+    padding: 1%;
+    margin-bottom: 3%;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 6%;
+}
+
+#enviar:focus{
+    background-color: rgb(194, 209, 180);
+}
+.e{
+    height: 16px;
+    width: 21px;
+    padding-left: 2%;
+    margin-top: 0%;
+    padding-bottom: 0%;
+}
+
+#tabla {
+    background-color: rgba(235, 238, 237, 0.932);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 2%;
+    border-radius: 15px;
+    height: auto;
+    position: fixed;
+}
+
+#tabla h1{
+    font-size: 40px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#tabla li{
+    font-size: 12px;
+    margin-top: -9px;
+}
+
+#table1{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+th{
+    background-color: rgb(148, 184, 252);
+    width: 350px;
+}
+
+td{
+    background-color: rgb(210, 238, 247);
+    width: 350px;
+}
+
+#agrega{
+    background-color: rgb(170, 183, 207);
+    color: black;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    width: 300px;
+}
+
+#agrega:hover{
+    background-color: rgb(53, 124, 255);
+    color: rgb(255, 255, 255);
+}
